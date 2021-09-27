@@ -1,0 +1,22 @@
+{
+  "name": "librarymanagement",
+  "version": "1.0.0",
+  "description": "Library Management System",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nyc --reporter=text mocha"
+  },
+  "keywords": [
+    "library"
+  ],
+  "author": "Deepak Garg",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0"
+  }
+}
